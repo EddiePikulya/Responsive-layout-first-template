@@ -1,0 +1,103 @@
+@media screen and (min-width: 640px) {
+	.content h2 {
+		margin-bottom: 8.90625%;
+		padding-left: 11.71875%;
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.content p {
+		font-size: 22px;
+		line-height: 44px;
+		padding-left: 11.25%;
+		padding-right: 12.03125%;
+	}
+	.content-text-1 p:nth-child(1) {
+		margin-bottom: 10.3125%;
+	}
+	.content-text-1 p:nth-child(2) {
+		padding-bottom: 16.09375%;
+	}
+}
+@media screen and (min-width: 980px) {
+	#header {
+		width: 100%;
+		background-color: #373c3f;
+	}
+	#header nav {
+		height: 100%;
+	}
+	#main-nav {
+		margin: 0;
+		display: flex;
+		list-style: none;
+		padding: 0;
+		height: 100%;
+		align-items: center;
+	}
+	#header img {
+		display: none;
+	}
+	#main-nav a {
+		font-family: 'Montserrat';
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 26px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #ebebeb;
+	}
+	#main-nav li:first-child {
+		margin-left: 5.510204081632653%;
+	}
+	#main-nav li {
+		padding-top: 4.591836734693878%;
+		padding-bottom: 4.081632653061224%;
+		margin-right: 2.653061224489796%;
+	}
+	#main-nav li:last-child {
+		margin-right: 0;
+	}
+	#main-nav a:hover {
+		color: #ffffff;
+	}
+	.photo-box img {
+		vertical-align: top;
+		width: 33.3333333%;
+	}
+	.content h2 {
+		padding-top: 7.040816326530612%;
+		margin-bottom: 3.163265306122449%;
+		padding-left: 7.040816326530612%;
+	}
+	.content p {
+		font-size: 14px;
+		line-height: 26px;
+		padding: 0;
+	}
+	.content div {
+		display: inline-block;
+		width: 37.55102040816327%;
+	}
+	.content-text-2 {
+		vertical-align: top;
+	}
+	.content-text-1 {
+		margin: 0 7.857142857142857%;
+	}
+	.content-text-1 p:nth-child(1), .content-text-2 p:nth-child(1) {
+		margin-bottom: 4.081632653061224%;
+	}
+	.content-text-1 p:nth-child(2), .content-text-2 p:nth-child(2), {
+		padding-bottom: 10.20408163265306%;
+	}
+}
+@media screen and (min-width: 1024px) {
+	#main-nav li:first-child {
+		margin-left: 5.2734375%;
+	}
+	#main-nav li {
+		padding-top: 4.39453125%;
+		padding-bottom: 3.981632653061224%;
+		margin-right: 2.453061224489796%;
+	}
+}
